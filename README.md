@@ -1,0 +1,2 @@
+# readygo
+go snippets
