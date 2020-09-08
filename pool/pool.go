@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"sync"
-	"runtime"
 )
 
 func main() {
@@ -14,7 +13,7 @@ func main() {
 			numCalcsCreated += 1
 			mem := make([]byte, 1024)
 			return &mem
-		}
+		},
 	}
 	calcPool.Put(calcPool.New())
 	calcPool.Put(calcPool.New())
