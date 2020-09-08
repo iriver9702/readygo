@@ -1,2 +1,6 @@
 approvers:
 - zhanghe9702
+- zhanghe-prow-bot
+reviewers:
+- zhanghe9702
+- zhanghe-prow-bot
