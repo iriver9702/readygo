@@ -1,6 +1,7 @@
 approvers:
 - zhanghe9702
 - zhanghe-prow-bot
+- harixminds
 reviewers:
 - zhanghe9702
 - zhanghe-prow-bot
